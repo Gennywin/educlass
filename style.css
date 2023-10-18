@@ -1,0 +1,434 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Arial', sans-serif;
+}
+.navbar{
+     display: flex;
+     gap: 10em;
+     padding-left: 3em;
+     padding-top: 2em;
+     background-color:#efeffd;
+}
+.logo{
+     display: flex;
+}
+.edu{
+     font-size: 30px;
+     font-weight: 600;
+     color:black ;
+}
+.navbar ul{
+     display: flex;
+     gap: 6em;
+     list-style: none;
+     font-size: 17px;
+}
+a{
+     text-decoration: none;
+}
+.Trial-button{
+     background-color: blue;
+     border-radius: 15px;
+     border: none;
+     width: 100px;
+     font-size: 16px;
+     font-weight: 500;
+     position: relative;
+     bottom: 1em;
+}
+.btn2{
+     top: 1em;
+     background-color: blue;
+     border-radius:15px ;
+     border: none;
+     width: 100px;
+     font-size: 16px;
+     font-weight: 500;
+     position: relative;
+      height: 35px;     
+}     
+.angle{
+     background: blue;
+     color: white;
+     padding: 10px;
+     border-radius: 20px;
+     font-size: 10px;
+
+}
+.angle2{
+     padding: 20px;
+}
+
+.neg {
+     width: 20px;
+     position: relative;
+     left: 1em;
+     top: 0.5em;
+}
+
+.header-content{
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     padding-left: 3em;
+     background-color: #efeffd;
+     padding-top: 5em;
+     height: 65vh;
+}
+.con{
+     padding-top: 5em;
+     margin-left: 3em;
+}
+.modern{
+     font-size: 60px;
+}
+.text h4{
+     font-size: 20px;
+     font-weight: 800;}
+.empower{
+     display: flex;
+     justify-content: space-around;
+     padding-top: 14%;
+}
+.empower-text{
+     margin-left: 4em;
+}
+.btn{
+     background-color: blue;
+     border-radius: 15px;
+     border: none;
+     width: 100px;
+     font-size: 15px;
+     font-weight: 500;
+     position: relative;
+     top: 1em;
+     height: 40px;
+     width: 30%;
+}
+.ttt{
+     display: flex;
+     justify-content: space-around;
+     gap: 4em;
+}
+.gen{
+     position: relative;
+     left: 4em;
+     bottom: 2em;
+}
+.boy{
+     color: blue;
+}
+.img-txt{
+     margin-left: 15%;
+     width: 550px;
+}
+.witty{
+     position: relative;
+     left: 4em;
+     bottom: 2em;
+}
+.main{
+     text-align: center;
+     padding: 80px;
+}
+#arrow{
+     position: relative;
+     margin-left: 1em;
+     color: blue;
+}
+.schedule{
+     display: flex;
+     justify-content: space-around;
+}
+.sch1{
+     margin-left: 4em;
+     width: 500px;
+}
+.sch2{
+     width: 500px;
+     position: relative;
+     top: 3em;
+     margin-right: 8em;
+}
+.sch2 h3{
+     text-transform: uppercase;
+     color: yellow;
+     line-height: 2em;
+}
+.sch2 h1{
+     margin-bottom: 0.5em;
+}
+.sch2 p{
+     line-height: 1.5em;
+     margin-bottom: 1em;
+}
+.sch2 a{
+     color: blue;
+}
+.sch img{
+     margin-left: 0.5em;
+}
+.analyse{
+     display: flex;
+     justify-content: space-around;
+}
+.analytics{
+     width: 450px;
+     position: relative;
+     margin-left: 10em;
+     top: 4em;
+}
+.analytics{
+     color: black;
+     line-height: 2em;
+}
+.analytics h1{
+     margin-bottom: 0.5em;
+}
+.analytics h3{
+     color:yellow;
+}
+.analytics p{
+     line-height: 1.5em;
+     margin-bottom: 1em;
+}
+.analytics a{
+     color: blue;
+}
+.analytics img{
+     margin-left: 0.5em;
+}
+.analyse img{
+     margin-right: 5em;
+}
+.manage{
+     display: flex;
+     justify-content: space-around;
+}
+.man{
+     margin-left: 4em;
+}
+.mantext{
+     width: 500px;
+     position: relative;
+     top: 3em;
+     margin-right: 8em;
+}
+.mantext h3{
+     color: yellow;
+     text-transform: upperc1ase;
+     line-height: 2em;
+}
+.mantext{
+     margin-bottom: 0.5rem;
+}
+.mantext p{
+     line-height: 1.5em;
+     margin-bottom:1em ;
+}
+.mantext a{
+     columns: blue;
+}
+.mantext img{
+     margin: left 0.5em;     
+}
+#blue{
+     color: blue;
+}
+.school{
+     text-align: center;
+     position: relative;
+     background-color: blue;
+     max-width: 100%;
+     height: 400px;
+}
+.good{
+     display: flex;
+     padding-left: 5em;
+     gap: 4em;
+}
+.card1{
+     border: 1px solid;
+     background-color:white;
+     height: 400px;
+     border: none;
+     width: 400px;
+}
+.card2{
+     border: 1px solid;
+     background-color: white;
+     border: none;
+     height: 400px;
+     width: 400px;
+}
+.card3{
+     border: 1px solid;
+     border: none;
+     background-color: white;
+     width: 400px;
+     height: 400px;
+}
+#good{
+     margin-bottom: 1em;
+}
+#goo{
+     margin-top: -1em;
+     margin-bottom: 2em;
+}
+.love{
+     line-height: 30px;
+}
+.more{
+     position: relative;
+     border-radius: 50px;
+     color: blue;
+     text-align: center;
+}
+.but{
+     background-color: blue;
+     color: white;
+     border-radius: 30px;
+     width: 150px;
+     position: relative;
+     left: 50em;
+     top: 20px;
+     height: 50px;
+     border: none;
+     padding: 10px; 
+     
+} 
+.hea{
+     position: relative;
+     text-align: center;
+     top: 10em;   
+}
+.warp{
+     position: relative;
+     bottom: 50em;
+     left: 70px;
+}
+.over{
+     display: flex;
+     margin-top: 15em;
+     padding-left: 5em;
+     gap: 5em;
+     cursor: pointer;
+     transition: 1s linear;
+}
+.generate3{
+     background-color: blue;
+     color: white;
+     height: 35em;
+     width: 35em;
+     padding: 50px;
+     border-radius: 10px;
+}
+.generate3:hover{
+     transform: scale(1.1);
+}
+.generate:hover{
+     transform: scale(1.1);
+}
+.generate4:hover{
+     transform: scale(1.1);
+}
+.tn{
+     color: black;
+     border-radius: 40px;
+     background-color: white;
+    margin-top: 10em;
+    margin-left: 8em;
+    width: 20em;
+    height: 50px;
+}
+.nt{
+     border-radius: 40px;
+     background-color: blue;
+     color: white;
+     width: 20em;
+     height: 50px;
+     margin-top: 3em;
+}
+.foot-head{
+     background-color: navy;
+     width: 90em;
+     margin-top: 10em;
+     height: 40em;
+}
+.foot-child{
+     display: flex;
+     margin-left: 30px;
+}
+.mini{
+     position: relative;
+     left: 10em;
+     margin-top: 5em;
+}
+.mini h2 p{
+     font-size: 50%;
+}
+.mini h2{
+     color: white;
+}
+.mini p{
+     color: green;
+     font-size: 100%;
+     font-weight: 100%;
+}
+.me{
+     position: relative;
+     left: 12em;
+     color: white;
+     bottom: 2em;
+      
+}
+#how{
+     position: relative;
+     left:1.5em
+
+}
+.t2{
+     border-radius: 15px;
+     background-color: blue;
+     width: 9em;
+     height: 3em;
+     border: none;
+     color: white;
+     margin-top: 2em;
+}
+#last{
+     margin-top: 3em;
+}
+.nedu{
+     position: relative;
+     left: 4em;
+     bottom: 35px;
+     color: white;
+     
+}
+.finishing{
+     margin-left: 30px;
+}
+.lastly{
+     margin-left: 30px;
+     display: flex;
+}
+.lastly ul{
+     display: flex;
+     margin-left: 30em;
+     justify-content: space-around;
+     gap:2em;
+}
+.lastly ul li{
+     list-style-type: none;
+}
+ul li a{
+     color: white;
+}
+.lastly p{
+     color: green;
+}
+
+
+
